@@ -8,9 +8,9 @@
       "name": "Django",
       "type": "debugpy",
       "request": "launch",
-      "program": "${workspaceFolder}/manage.py",
+      "program": "${workspaceFolder}/djangoapp/manage.py",
       "args": [
-        "runserver"
+        "runserver 0.0.0.0:8080"
       ],
       "django": true
     }
